@@ -63,6 +63,7 @@ section > #tokyo {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.3);
+  transition: opacity 0.2s;
 }
 
 section > p{
@@ -81,5 +82,9 @@ section:hover > .bg{
 }
 
 section:hover > p{
+  opacity: 0;
+}
+
+section:hover > .layover{
   opacity: 0;
 }
